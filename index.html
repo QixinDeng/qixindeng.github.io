@@ -116,9 +116,7 @@
     </button>
     </p>
     <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"> 
-    Recovering 3D face models from in-the-wild face images has numerous potential applications.
-However, properly modeling complex lighting effects in reality, including specular lighting, shadows, and occlusions, from a single in-the-wild face image is still considered as a widely open research challenge. In this paper, we propose a convolutional neural network based framework to regress the face model from a single image in the wild. The outputted face model includes dense 3D shape, head pose, expression, diffuse albedo, specular albedo, and the corresponding lighting conditions. Our approach uses novel hybrid loss functions to disentangle face shape identities, expressions, poses, albedos, and lighting. Besides a carefully-designed ablation study, we also conduct direct comparison experiments to show that our method can outperform state-of-art methods both quantitatively and qualitatively. </div></p>
- </p>
+    In this paper we propose a novel conditional generative adversarial network (cGAN) architecture, called S2M-Net, to holistically synthesize realistic three-party conversational animations based on acoustic speech input together with speaker marking (i.e., the speaking time of each interlocutor). Specifically, based on a pre-collected three-party conversational motion dataset, we design and train the S2M-Net for three-party conversational animation synthesis. In the architecture, a generator contains a LSTM encoder to encode a sequence of acoustic speech features to a latent vector that is further fed into a transform unit to transform the latent vector into a gesture kinematics space. Then, the output of this transform unit is fed into a LSTM decoder to generate corresponding three-party conversational gesture kinematics. Meanwhile, a discriminator is implemented to check whether an input sequence of three-party conversational gesture kinematics is real or fake. To evaluate our method, besides quantitative and qualitative evaluations, we also conducted paired comparison user studies to compare it with the state of the art. </p>
  <!--  -----------------------------------------------------------------     -->
 
 
@@ -132,7 +130,7 @@ However, properly modeling complex lighting effects in reality, including specul
       
         <br>[ <a style="margin:0; font-size:100%; font-weight:bold" href="http://graphics.cs.uh.edu/wp-content/papers/2022/2022-MM-EndtoEnd3DFaceReconstruction.pdf">paper</a>  ]
      	    [ <a style="margin:0; font-size:100%; font-weight:bold" href="https://www.youtube.com/watch?v=tsbNI9vj1Ec&t=17s">video</a>  ]
-	    [ <class="view"; a style="margin:0; font-size:100%; font-weight:bold" href="https://qixindeng.github.io/research/results.pdf">supplementary material</a>]
+	    [ <a class="view";style="margin:0; font-size:100%; font-weight:bold" href="https://qixindeng.github.io/research/results.pdf">supplementary material</a>]
       <button class="accordion">
       Abstract
     </button>
