@@ -1,2 +1,2 @@
 # qixindeng.github.io
-Repository for personal website.
+Repository for Qixin Deng personal website.
